@@ -78,7 +78,7 @@ a {
             Header-image
  -------------------------------------------------------------------------*/
  .header-image{
-     background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url(/imag1.jpg);
+     background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url(./imag1.jpg);
      height: 500px;
      background-size: cover;
      background-position: center;
