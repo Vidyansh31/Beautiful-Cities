@@ -1,0 +1,215 @@
+/*-----------------------------
+          Default values
+
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Pacifico', cursive;
+color:
+1) Imperial Primer : #222F3e ;
+2) wild caribbean green 
+:#1dd1a1
+3) Grey = #fbfbfb
+4) another grey = #ccc
+----------------------------*/
+
+
+/*-----------------------------
+         Basic setup
+----------------------------*/
+
+*
+{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Ubuntu', sans-serif; ;
+}
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: white;
+}
+a {
+    text-decoration: none;
+}
+ li {
+    list-style: none;
+    display: inline-block;
+} 
+/*--------------------------
+       Header
+ -------------------------*/
+ body{
+     background-color: #fbfbfb;
+ }
+ header h1{
+     margin: 0px;
+     padding: 3px 45px;
+     background-color: #222F3e;
+     color: white;
+     font-family: 'Pacifico', cursive;
+ }      
+
+ header h1 span{
+     padding: 2px;
+     color: #1dd1a1;
+ }
+
+/*--------------------------
+       nav-menu
+-----------------------*/
+ .nav-menu {
+     padding: 10px 0px 10px 120px;
+ }     
+.nav-menu a{
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #ccc;
+}
+.nav-menu a:hover{
+    color:#222F3e;
+    font-weight: 700;
+}
+.nav-menu li{
+    padding: 15px;
+}
+/*------------------------------------------------------------------------------------
+            Header-image
+ -------------------------------------------------------------------------*/
+ .header-image{
+     background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url(/imag1.jpg);
+     height: 500px;
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     display: flex;
+     flex-direction: column;
+     color: #ffffff;
+     justify-content: center;
+     align-items: center;
+     
+     
+ }
+ .header-image h2
+ {
+     font-weight: 300;
+     text-transform: uppercase;
+     font-size: 30px;
+     letter-spacing: 3px;
+ }
+
+ .header-image p{
+     margin: 10px 150px;
+     text-align: center;
+ }
+
+ /*--------------------------
+        Journey Ways
+    ------------------------*/
+
+    .journey-ways{
+        width: 90%;
+        margin: auto;
+        padding: 70px;
+        padding-bottom: 40px;
+    }
+
+    .journey-ways h2{
+        
+        color:#222f3e ;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 35px;
+        font-weight: 300;
+    }
+
+    .journey-ways h2 span{
+        color: #1dd1a1;
+        font-weight: 700
+        ;
+    }
+
+    #journey-explained{
+        color: #222f3e;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .travel-ways{
+        display: flex;
+        margin-top: 50px;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    .ways-of-travel
+    {
+        width: 30%;
+    }
+
+    .ways-of-travel img{
+        height:150px;
+        padding: 10px;
+    }
+    .ways-of-travel:nth-child(2){
+        margin-top: 70px;
+    }
+
+    .ways-of-travel h3{
+        margin-top: 15px;
+        color: #222f3e;
+        text-transform: uppercase;
+        font-size: 25px;
+    }
+
+    .ways-of-travel h3 span{
+        color: #1dd1a1;
+    }
+    .ways-of-travel p{
+        color: #222F3e;
+        margin-top: 10px;
+    }
+
+
+    /*--------------------------------------s-----------------
+                  City images
+      ---------------------------------------------------*/
+      
+      .city{
+          padding-top: 40px;
+          background-color: #1dd1a1;
+          color: #222F3e;
+      }
+      .images-of-city{
+          display: flex;
+          flex-wrap: wrap;
+          /* by doing this the images wrap itself in 2nd row  */
+          justify-content: space-around;
+      }
+    .city-image{
+        width: 29%;
+        margin-bottom: 25px;
+        background-color: #fbfbfb;
+    }
+    .city-image img{
+        width: 100%;      
+        /* by doing this we can adjust the width of the image and make them 100% of the width of its parent div */
+    }
+    .city-image h3{
+        padding: 10px;
+        text-transform: uppercase;
+    }
+    .city-image p{
+        padding : 0 15px 10px 15px;
+    }
+    /*----------------------------------------------------------------------------
+                              Footer
+     --------------------------------------------------------------------*/
+     
+     footer{
+         text-align: center;
+         background-color: #222f3e;
+         padding: 10px;
+        color: white;
+     }
